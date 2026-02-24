@@ -47,21 +47,23 @@ Validar o funcionamento dos seguintes fluxos:
 - Teste do fluxo completo de CRUD
 
 ---
+## Postman Collection
+
+Este repositório também contém a collection do Postman utilizada para executar as requisições e validar os endpoints de CRUD de usuários.
+
+A collection pode ser importada diretamente no Postman para reprodução dos testes.
 
 ## Estrutura do Projeto
 
-Este repositório contém:
-
 - Casos de teste documentados em formato Markdown
 - Organização clara dos fluxos testados
-- Estrutura preparada para futura evolução (testes negativos e automação)
+- Postman collection
 
 ---
 
 ## Próximos Passos
 
 - Implementar testes negativos
-- Adicionar collection do Postman
 - Implementar testes automatizados
 - Melhorar documentação com evidências (prints ou export da collection)
 
