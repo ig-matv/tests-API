@@ -72,3 +72,76 @@ A collection pode ser importada diretamente no Postman para reprodução dos tes
 ## Autor
 
 Projeto desenvolvido para fins de estudo e prática em Quality Assurance.
+
+
+# English Version
+
+# API Testing — User CRUD
+
+## Project Description
+This repository contains **manual test cases** for validating the CRUD (Create, Read, Update, Delete) endpoints of the Serverest API.  
+
+The goal of this project is to practice **API testing** using HTTP requests, status code validation, and response body structure validation.
+
+---
+
+## Objective
+Validate the following flows:
+
+- User registration  
+- Retrieve a specific user  
+- Update a user  
+- Delete a user  
+
+---
+
+## Technologies and Tools Used
+- Postman  
+- Serverest API  
+- Git  
+- GitHub  
+
+---
+
+## Endpoints Tested
+
+| Method | Endpoint          | Description          |
+|--------|-----------------|--------------------|
+| POST   | /usuarios        | Create a new user   |
+| GET    | /usuarios/{_id}  | Retrieve specific user |
+| PUT    | /usuarios/{_id}  | Update user         |
+| DELETE | /usuarios/{_id}  | Delete user         |
+
+---
+
+## Validations Performed
+- Status code verification  
+- Validation of required fields in the response body  
+- Validation of messages returned by the API  
+- Full CRUD flow testing  
+
+---
+
+## Postman Collection
+This repository also contains the **Postman collection** used to execute the requests and validate the user CRUD endpoints.  
+
+The collection can be **imported directly into Postman** to reproduce the tests.
+
+---
+
+## Project Structure
+- Test cases documented in **Markdown**  
+- Clear organization of tested flows  
+- Postman collection included  
+
+---
+
+## Next Steps
+- Implement **negative tests**  
+- Implement **automated tests**  
+- Improve documentation with **evidence** (screenshots or exported collection)  
+
+---
+
+## Author
+This project was developed for **study and practice** in Quality Assurance.
